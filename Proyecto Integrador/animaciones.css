@@ -1,0 +1,75 @@
+.cart-icon:hover {
+    color: rgb(255, 4, 4);
+    border-color: rgb(255, 2, 2);
+    transition: 0.3s ease-in;
+  }
+
+  .navbar-list a:hover 
+    {
+    color: rgb(255, 4, 4);
+    border-color: rgb(255, 2, 2);
+    transition: 0.3s ease-in;
+  }
+
+  .navbar-list li {
+    position: relative;
+    padding: 0;
+  }
+
+  .navbar-list li a:hover::after {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+  }
+  
+  .navbar-list li a::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.20s ease-in;
+  }
+
+  .hero-cafe-top span:hover {
+    color: rgb(255, 4, 4);
+    border-color: rgb(255, 2, 2);
+    transition: 0.3s ease-in;
+  }
+
+
+  .cart-icon:hover {-webkit-transform: scale(1.2); transform:scale(1.2);
+    transition: transform 0.2s ease-in;}
+
+  .hero-info a:hover{-webkit-transform: scale(1.2); transform:scale(1.2);}
+
+  .info-cafe  img:hover:nth-child(1) {-webkit-transform: scale(1.6); transform:scale(1.6);}
+  .info-cafe  img:hover:nth-child(2) {-webkit-transform: scale(1.45); transform:scale(1.45);}
+  .info-cafe img:hover:nth-child(3) {-webkit-transform: scale(1.5); transform:scale(1.5);}
+
+
+  .btn-add:hover {-webkit-transform: scale(1.1); transform:scale(1.1);}
+
+  .item-handler ,
+  .plus:hover ,
+  .less:hover
+    {-webkit-transform: scale(1.2); transform:scale(1.2);}
+
+
+    .btn-comprar:hover {
+      -webkit-transform: scale(1.2); transform:scale(1.2);
+     
+    }
+
+
+    .btn:hover {
+      -webkit-transform:scale(1.1); transform: scale(1.1);
+      
+    }
+
+    .contact-info button:hover {
+      -webkit-transform:scale(1.1); transform: scale(1.1);
+    }

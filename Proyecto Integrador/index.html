@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="mediaqueries.css">
+
+    <link rel="stylesheet" href="animaciones.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header> <img src="./img/Mug-Coffee-PNG-Photo-Clip-Art-Image.png" alt="Logo de Café" class="logo">
+        <nav class="navbar"> <label for="menu-toggle" class="menu-label"> <i class="fa-sharp fa-solid fa-bars">
+
+                </i>
+            </label> <input type="checkbox" id="menu-toggle">
+            <ul class="navbar-list">
+                <li><a href="#info">PROMOCIONES</a></li>
+                <li><a href="#benefits">BENEFICIOS</a></li>
+                <li><a href="#contact">CONTACTO</a></li>
+            </ul> <label for="cart-edit" class="cart-label">
+
+
+                <i class="fa-sharp fa-solid fa-cart-shopping cart-icon"></i>
+
+            </label> <input type="checkbox" id="cart-edit">
+
+
+            <div class="cart">
+                <h2>TU MEJOR CAFETERÍA</h2>
+                <div class="cart-item"> <img src="./img/McCafe cafe y 3medialunas.png" alt="Café + 3 Medialunas">
+                    <div class="item-info">
+                        <h3 class="item-title">Café + 3 Medialunas</h3>
+                        <p class="item-bid">Precio</p> <span class="item-price">$700</span>
+                    </div>
+                    <div class="item-handler"> <span class="quantity-handler less">-</span> <span
+                            class="item-quantity">1</span> <span class="quantity-handler plus">+</span> </div>
+                </div>
+                <div class="cart-item"> <img src="./img/NGK_Latte+tostado copy.png" alt="Latte + Tostado">
+                    <div class="item-info">
+                        <h3 class="item-title">Latte + Tostado</h3>
+                        <p class="item-bid">Precio</p> <span class="item-price">$1000</span>
+                    </div>
+                    <div class="item-handler"> <span class="quantity-handler less">-</span> <span
+                            class="item-quantity">1</span> <span class="quantity-handler plus">+</span> </div>
+                </div>
+                <div class="cart-item"> <img src="./img/48751 500x500_Ensalada-pollo-Crispy+coca.png"
+                        alt="Gaseosa + ensalada">
+                    <div class="item-info">
+                        <h3 class="item-title">Gaseosa + ensalada</h3>
+                        <p class="item-bid">Precio</p> <span class="item-price">$1100</span>
+                    </div>
+                    <div class="item-handler"> <span class="quantity-handler less">-</span> <span
+                            class="item-quantity">1</span> <span class="quantity-handler plus">+</span> </div>
+                </div>
+                <div class="cart-item"> <img src="./img/lemon_pie.png" alt="Lemon Pie">
+                    <div class="item-info">
+                        <h3 class="item-title">Porción de Lemon Pie</h3>
+                        <p class="item-bid">Precio</p> <span class="item-price">$500</span>
+                    </div>
+                    <div class="item-handler"> <span class="quantity-handler less">-</span> <span
+                            class="item-quantity">1</span> <span class="quantity-handler plus">+</span> </div>
+                </div>
+                <div class="cart-item"> <img src="./img/Stacker-Triple.png" alt="Hamburguesa Triple">
+                    <div class="item-info">
+                        <h3 class="item-title">Hamburguesa Triple</h3>
+                        <p class="item-bid">Precio</p> <span class="item-price">$850</span>
+                    </div>
+                    <div class="item-handler"> <span class="quantity-handler less">-</span> <span
+                            class="item-quantity">1</span> <span class="quantity-handler plus">+</span> </div>
+                </div> <span class="divider"></span>
+                <div class="cart-total">
+                    <p>Total:</p> <span>$4150</span>
+                </div> <button class="btn-add">Comprar</button>
+            </div>
+        </nav>
+    </header>
+    <!-- Carrito Final -->
+
+    <main>
+
+        <section id="hero">
+
+            <div class="hero-info">
+
+                <h1><span>Cafetería "El Barrio"</span> </h1>
+                <p>Uno de los mejores cafes de la ciudad los vas a encontrar AQUÍ.
+                    Tostados,Hamburguesas,Ensaladas,Tortas y
+                    hasta Helados,una de las cafeterías mas completas y con mejor calidad.</p> <a href="#"
+                    class="hover">Mas Cosas
+                    Deliciosas</a>
+            </div>
+            <div class="hero-cafe"> <img src="./img/cafe.cb6da8e7a3e77272b81127384dbfda4d.png" alt="Café">
+                <div class="hero-cafe-info">
+                    <div class="hero-cafe-top">
+                        <h3>DISTINTOS CAFÉS</h3> <span>Aquí</span>
+                    </div>
+                    <div class="hero-cafe-price">
+                        <span>A partir de 300$</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="info">
+            <h2>PROMOCIONES</h2>
+            <div class="info-cafe-container">
+                <div class="info-cafe">
+                    <h3>Café + Tostado</h3> <img src="./img/NGK_Latte+tostado copy.png" alt="Café + Tostado">
+                    <p>Aprovecha el 25% de descuento en este COMBO pagando en EFECTIVO</p>
+                </div>
+                <div class="info-cafe">
+                    <h3>Ensalada + Gaseosa</h3> <img src="./img/48751 500x500_Ensalada-pollo-Crispy+coca.png"
+                        alt="Ensalada + Gaseosa">
+                    <p>Llevando este COMBO de lunes a jueves tenes la bebida GRATIS</p>
+                </div>
+                <div class="info-cafe">
+                    <h3>Café + 3 Medialunas</h3> <img src="./img/McCafe cafe y 3medialunas.png"
+                        alt="Café + 3 Medialunas">
+                    <p>Llevando este COMBO los findes tenes 3 medialunas GRATIS </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="products">
+            <h2>Clásicos Del Barrio</h2>
+            <div class="categories">
+                <botton class="category">Medialunas</botton>
+                <botton class="category">Café</botton>
+                <botton class="category">Lágrima</botton>
+                <botton class="category">Tostado</botton>
+            </div>
+
+            <div class="products-container">
+
+                <div class="product"> <img class="Medialunas" src="./img/tmp878195715631858781090401282.png"
+                        alt="Medialunas">
+                    <div class="product-info">
+
+                        <div class="product-top">
+                            <h3>1 Docena</h3>
+                        </div>
+                        <div class="product-mid"> <span>$400</span> </div>
+                        <div class="product-bot">
+                            <div class="product-offer">
+                                <button class="btn-comprar">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product"> <img class="Café" src="./img/comprar-cafe-mayorista-min.png" alt="Café">
+                    <div class="product-info">
+
+                        <div class="product-top">
+                            <h3>Café</h3>
+                        </div>
+                        <div class="product-mid"> <span>300$</span> </div>
+                        <div class="product-bot">
+                            <div class="product-offer">
+                                <button class="btn-comprar">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product"> <img class="Lágrima" src="./img/Lagrima-500x500.png" alt="Lágrima">
+                    <div class="product-info">
+
+                        <div class="product-top">
+                            <h3>lágrima</h3>
+                        </div>
+                        <div class="product-mid"> <span>350$</span> </div>
+                        <div class="product-bot">
+                            <div class="product-offer">
+                                <button class="btn-comprar">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product"> <img class="Tostado" src="./img/TOSTADOS2.png" alt="Tostado">
+                    <div class="product-info">
+
+                        <div class="product-top">
+                            <h3>Tostado</h3>
+                        </div>
+                        <div class="product-mid"> <span>700$</span> </div>
+                        <div class="product-bot">
+                            <div class="product-offer">
+                                <button class="btn-comprar">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+
+        <section id="benefits">
+
+            <h1>Beneficios</h1>
+
+
+
+            <div class="benefits-container">
+
+                <div class="benefits-info">
+
+                    <div class="benefits-top">
+                        <h2>Descuentos</h2>
+                        <span> Haciendo una compra de +1000$ el envio ¡ES GRATIS! </span>
+                        <button class="btn">Click Aquí</button>
+                    </div>
+
+                </div>
+
+                <div class="benefits-info">
+
+                    <div class="benefits-mid">
+                        <h2>Promociones</h2>
+                        <span>Esta Cafetería Cuenta Con Promociones ¡Todos Los Fin De Semana! </span>
+                        <button class="btn">Click Aquí</button>
+
+                    </div>
+
+                </div>
+
+                <div class="benefits-info">
+                    <div class="benefits-bot">
+
+                        <h2>Delivery</h2>
+                        <span> Contamos Con Delivery,Te Llevamos El Pedido ¡Hasta Tu Casa! </span>
+                        <button class="btn">Click Aquí</button>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+        </section>
+
+
+        <section id="contact">
+
+
+
+
+
+            <div class="contact-info">
+                <h1>Soporte</h1>
+
+
+                <span>Si tenes alguna queja de algun producto en mal estado o tenes alguna duda,lo que
+                    sea,contactanos.</span>
+
+                <button>Click Aquí</button>
+            </div>
+
+            </div>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.507131429912!2d-57.554196!3d-37.9652927!2m3!1
+                 f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+                 1s0x9584d90bc1472b93%3A0xb1eb59ebfa003ab7!2sLevel%20Body%20Fit!5e0!3m2!1ses-419!2sar!4v1665767045038!5m2!1ses-419!2sar"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+            <ul class="footer-links">
+                <li><a href="#"> <span> Calificación </span></a></li>
+                <li><a href="#"> <span> Delivery </span></a></li>
+                <li><a href="#"> <span> Soporte </span></a></li>
+            </ul>
+        </div>
+        <p> <span> Hecho con ❤️ en CAFETERÍA "EL BARRIO"</span> </p> 
+        <img  src="./img/Mug-Coffee-PNG-Photo-Clip-Art-Image.png" alt="Logo de Café"  class="imagen">
+    </footer>
+
+</body>
+
+</html>
