@@ -85,11 +85,13 @@ header {
   border: 1px solid rgb(0, 0, 0);
   border-radius: 10px;
   padding: 20px;
+  
 }
 
 .cart-item img {
   height: 65px;
   width: 65px;
+  
 }
 
 .item-title {
@@ -110,7 +112,11 @@ header {
   -webkit-background-clip: text;
   font-size: 16px;
   font-weight: 800;
+  
 }
+
+
+
 .item-handler {
   display: flex;
   align-items: center;
