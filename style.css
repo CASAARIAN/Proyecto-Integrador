@@ -172,6 +172,22 @@ header {
   height: 37px;
 }
 
+.sesion,
+.sesion a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: white;
+  font-size: 13px;
+  border-radius: 20px;
+  padding: 5px 5px;
+}
+
+.sesion a:nth-child(1) {
+  background:linear-gradient(to top ,black, rgb(83, 25, 25))
+}
+
 #cart-edit:checked + .cart {
   transform: translate(0%);
   transition: all 0.5s cubic-bezier(0.92, 0.01, 0.35, 0.99);
@@ -473,7 +489,6 @@ header {
   flex-direction: row;
   justify-content: center;
   gap: 100px;
-  
 }
 
 .benefits-info {
@@ -481,7 +496,6 @@ header {
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
-  
 }
 
 .benefits-top,
@@ -518,7 +532,6 @@ header {
   color: white;
   border-radius: 12px;
   padding: 2px 3px;
-  
 }
 
 .contact-info span {
@@ -536,9 +549,10 @@ header {
   background-color: #611a1a;
   width: 10%;
   margin: 0 auto;
-margin-top: 25px;
-cursor: pointer;
-border-radius: 10px;
+  margin-top: 25px;
+  cursor: pointer;
+  border-radius:10px;
+  border-color: #000000;
 }
 
 iframe {
@@ -570,12 +584,11 @@ footer span {
   font-weight: 800;
 }
 
-.footer , .imagen {
+.footer,
+.imagen {
   background-color: black;
   border-radius: 100%;
   width: 65px;
- 
-  
 }
 
 .footer-links {
@@ -583,5 +596,3 @@ footer span {
   justify-content: center;
   gap: 20px;
 }
-
-

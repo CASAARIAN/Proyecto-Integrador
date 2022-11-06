@@ -17,7 +17,7 @@
   }
 
   .navbar-list li a:hover::after {
-    transform-origin: bottom left;
+    transform-origin: bottom center;
     transform: scaleX(1);
   }
   
@@ -30,7 +30,7 @@
     bottom: 0;
     left: 0;
     transform: scaleX(0);
-    transform-origin: bottom right;
+    transform-origin: bottom center;
     transition: transform 0.20s ease-in;
   }
 
@@ -73,3 +73,18 @@
     .contact-info button:hover {
       -webkit-transform:scale(1.1); transform: scale(1.1);
     }
+
+    
+.sesion a:hover {
+  color: rgb(117, 26, 26);
+  border-color: rgb(117, 26, 26);
+  transition: 0.3s ease-in;
+}
+
+
+.product img:hover  {border-radius:50%;
+  -webkit-border-radius:50%;
+  box-shadow: 0px 0px 15px 15px #ec731e;
+  -webkit-box-shadow: 0px 0px 15px 15px #ec731e; }
+ 
+

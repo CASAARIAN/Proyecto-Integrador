@@ -12,6 +12,7 @@ body {
   font-family: "Poppins", sans-serif;
   background: rgb(31, 10, 10);
   color: white;
+  background-image: url(./img/afed377f5a3653e218393cb8d8d1383e-ilustracion-de-cafeteria-moderna.jpg);
 }
 
 .navbar {
@@ -46,6 +47,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  color: #000000;
 }
 
 .btn-submit {
@@ -68,6 +70,9 @@ body {
   font-size: 400;
   margin-top: 80px;
   margin-bottom: 50px;
+color: #000000;
+background-color: rgb(66, 22, 22);
+border-radius: 70px;
 }
 
 .main {
@@ -95,6 +100,9 @@ body {
 }
 
 .footer-list a {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 500;
+  background-color: rgb(146, 134, 134);
+  border-radius: 50px;
 }
+
